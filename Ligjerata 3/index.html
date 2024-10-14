@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Personal Information</legend>
+        <label for="firstname">First name:</label><br>
+        <!-- readonly atributi tlejon veq me lexu jo me ndryshu
+          size me dit sa po don me ja qit size 
+          value="Johnathan" btw by default ta qet qat vlere -->
+        <input type="text" id="firstname " name="firstname" placeholder="Filan"><br>
+        <label for="lastname">Last name:</label><br>
+        <input type="text" name="lastname" id="lastname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email" required><br>
+        <label for="password">Password:</label><br>
+        <!-- placeholder ta kallxon me shkronja ma pak t theksume si shembull qa dueht me shkru ti nqat pjese -->
+        <input type="password" name="password" id="password"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label for="">Hobbies</label><br>
+        <input type="checkbox" name="gaming" id="gaming" value="Gaming">
+        <label for="gaming">Gaming</label><br>
+        <input type="checkbox" name="football" id="football" value="Football">
+        <label for="football">Football</label><br>
+        <input type="checkbox" name="swimming" id="swimming" value="Swimming">
+        <label for="swimming">Swimming</label><br><br>
+        
+<label for="pet">Choose a pet</label>
+        <select name="pet" id="pet">
+            <!-- <option value="" disabled selected>Choose a pet</option> -->
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+            <option value="Parrot">Parrot</option>
+        </select><br><br>
+<label for="message"></label>
+        <textarea name="message" id="message" rows="10" cols="20"></textarea>
+        <!-- maxlength="50" veq 50 karaktere ti lejon ma shume jo -->
+        <br><br>
+        <input type="submit" id="submit" name="submit"><br>
+    </fieldset>
+    </form>
+    <br>
+    <hr>
+    <article>
+        <h2>This is an article</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, eos? Accusamus, rerum, animi similique tempora, tenetur eum ipsa esse explicabo recusandae eius odio! Voluptatem exercitationem praesentium impedit consectetur ex aliquam!</p>
+    </article>
+
+    <details>
+        <summary>Digital School</summary>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati incidunt quaerat laudantium. Aspernatur eveniet totam odit deleniti temporibus veritatis inventore maiores itaque pariatur molestiae, ut provident, animi ab repellendus reprehenderit?</p>
+        <!-- pra summary eshte diqka e re  -->
+    </details>
+    <br>
+    <figure>
+        <img src="/Ligjerata 3/3410030.jpg" alt="Figura" width="195">
+        <figcaption>Fig.1 IT enthusiast background</figcaption>
+    </figure>
+
+    <br><br>
+    <section>
+        <h2>Introduction</h2>
+        <p>This course will teach u how to create websites using HTML, CSS and JS</p>
+    </section>
+</body>
+</html>
