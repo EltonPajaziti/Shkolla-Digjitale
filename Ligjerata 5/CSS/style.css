@@ -1,0 +1,41 @@
+body{
+    background: url(../Images/bcg.jpg);
+    background-size: cover;
+    /* qekjo cover perdoret kur dojna qe veq 1 foto me e mbulu jo qajo foto mu ba si 100 tvogla e me e mbulu */
+}
+
+h2{
+    color: pink;
+    margin: 100px 150px 100px 80px;
+    /* si ora dmrh i pari lart i dyti djathtas i treti posht edhe i katerti majtas */
+}
+
+p{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 50%;
+    /* kur eshte me perqindje eshte responsive  */
+    /* margin eshte hapesira ne mes nje elementi dhe nje elementi tjeter  */
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+h3{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 60px;
+    padding-bottom: 70px;
+     color: beige;
+}
+
+div{
+    background-color: powderblue;
+    height: 200px;
+    width: 50%;
+    /* nese e bojna max-width divi e ka max qat qidth pa marr parasysh elementet e tij sa e kane  */
+}
+
+h1{
+    border: 5px solid black;
+}
