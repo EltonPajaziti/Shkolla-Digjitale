@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "Fake Identity";
+    src: url("../Fonts/FakeIdentity.ttf");
+}
+
+h1{
+    color: green;
+    letter-spacing: 20px;
+    /* hapesira ne mes shkronjave  */
+    word-spacing: 50px;
+    /* hapesire ne mes te fjaleve te nje fjalie  */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*  te dafont.com mundemi me marr loje te ndryshme te fonteve  */
+p{
+    text-indent: 50px;
+    /* e len nje hapesire ne fillim te rreshtit  */
+    /* text-align: left; eshte by defaault */
+    text-align: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* kur qajo family eshte ma shume se 1 fjale eshte e ndare me space atehere e shtijna nthonjza perndryshe si psh Calibri ksa nevoje me e shti nthojza  */
+    font-style: oblique;   /*eshte si italic veq se perdoret me pak*/
+    font-weight: bold;   /* mundemi edhe me vlera me i tregu */
+}
+
+h2{
+    text-decoration: overline ;
+    
+}
+
+h3{
+    text-decoration: underline;
+}
+h4{
+    text-decoration: line-through;
+    /* gati se me tagun del */
+}
+.myElement{
+    font-size: 70px;
+}
+
+a:link{
+    color: red;
+}
+
+a:visited{
+    color: green;
+}
+
+
+a:hover{
+    color:palevioletred
+}
+
+a:active{
+    color: blue;
+}
