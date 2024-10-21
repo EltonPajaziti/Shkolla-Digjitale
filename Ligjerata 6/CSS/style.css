@@ -1,0 +1,53 @@
+ul{
+    /* border-left: 5px solid green; */
+    /* list-style-type: circle; */
+    /* list-style-image: url("../Images/plus.jpg"); */
+    list-style-type: none;
+    padding: 15px 25px;
+    border: 2px solid grey;
+}
+
+ul li{
+    padding: 8px 16px; /* majtas djathtas, posht lart*/
+    border-bottom: 1px solid grey;
+}
+ol{
+    /* list-style-type: upper-roman; */
+    /* list-style-type: lower-alpha; */
+    background: #ffeeee;
+    padding: 15px;
+    list-style-type: none;
+}
+
+ol li{
+    background: #00004e;
+    padding: 10px;
+    margin-left: 30px;
+    color: white;
+}
+
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border: 1px solid #8a1515;
+    padding: 15px;
+}
+
+tbody tr:nth-child(odd){
+    background-color: pink;
+}
+tbody tr:nth-child(even){
+    background-color: blueviolet;
+}
+
+div{
+    overflow: scroll;
+    /* overflow: visible; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow: inherit; qysh e ka parent elementi overflowin qashtu e merr edhe ky */
+    background-color: #f27979;
+    width: 200px;
+    height: 200px;
+}

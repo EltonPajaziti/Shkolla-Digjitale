@@ -1,0 +1,82 @@
+/* KREJT PARAGRAFET MRENA ARTIKULLIT ME SPACE */
+article p{
+    background: blue;
+    color: white;
+    padding: 20px;
+}
+/* i merr veq fmijet direkt te ksaj  me >*/
+article > p{
+    background-color: red;
+}
+/* sibling te te njejtes kategori */
+article ~ p{
+    background-color: purple;
+    padding: 20px;
+}
+
+article + p{
+    background-color: orange;
+    padding: 20px;
+}
+h3:first-of-type{
+    background-color: green;
+    color: white;
+}
+input:in-range{
+    border: 3px solid green;
+}
+input:out-of-range{
+    border: 3px solid red;
+}
+
+input:required{
+    background-color: aqua;
+}
+
+input:focus{
+    /* kur klikojna mrena me shkru nqat input ngjyra bohet aquamarine */
+    background-color: aquamarine;
+}
+
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
+span:first-of-type{
+    background-color: black;
+    color: wheat;
+}
+
+form{
+    margin-top: 50px;
+}
+
+p{
+    width: 200px;
+}
+p::first-line{
+    /* pseudoelement */
+    color: blue;
+}
+
+p::first-letter{
+    font-size: 45px;
+}
+
+p::before{
+    content: url("../Images/plus.jpg");
+}
+
+p::selection{
+    /* kur e selektojna paragrafin na del ndryshimi  */
+    color: pink;
+    background: yellow;
+}
+/* default e opacity eshte 1 dmth duket krejt  */
+
+div{
+    opacity: 0.5;
+}
