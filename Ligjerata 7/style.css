@@ -1,0 +1,54 @@
+#static{
+    position: static;
+    /* by default pozita eshte static */
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+}
+
+#relative{
+    position: relative;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    left:20px ;
+    top: 50px;
+}
+
+#fixed{
+    position: fixed;
+    border: 2px solid black;
+    width: 250px;
+    height: 250px;
+    padding: 20px;
+    top: 100px;
+    right: 20px;
+  
+}
+
+#absolute{
+    position: absolute;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+ top: 50px;
+ left: 50px;
+}
+
+#parent{
+    position: relative;
+    width: 250px;
+    height: 250px;
+border: 2px solid black;
+    top: 100px;
+    
+}
+
+#sticky{
+    position: sticky;
+    top: 0px;
+    padding: 20px;
+    background-color: coral;
+}
