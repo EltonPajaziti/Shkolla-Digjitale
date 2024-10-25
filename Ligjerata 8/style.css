@@ -1,0 +1,56 @@
+div.gallery{
+margin: 5px;
+border: 1px solid #ccc;
+float: left;
+width: 180px;
+}
+
+div.gallery img{
+    width: 100%;
+    /* height: auto;     ne  menyre automatike i ben */
+    height: 200px;
+}
+
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
+a{
+    color: red;
+}
+a[href="https://facebook.com/"]{
+    color: blue;
+}
+
+p[class*="ds"]{
+    /* gjithqka qe ka ds natribut  e merr */
+    background-color: bisque;
+    color: white;
+    padding: 20px;
+}
+
+div[id~="ds"]{
+    /* qka do qe ka ds ama eshte e ndame */
+    background: green;
+    color:white;
+    padding: 20px;
+}
+
+
+div[id^="ds"]{
+    /* nese fillon me ds */
+    background: red;
+    color:white;
+    padding: 20px;
+}
+
+div[id|="ds"]{
+    /* nnese eshte me - ne mes */
+    background: purple;
+    color:white;
+    padding: 20px;
+}
+
+input[readonly]{
+    border: 2px solid green;
+}
