@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+    background-color: beige;
+    /* flex-direction: row; */
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    /* height: 100px; */
+    align-items: stretch;
+    /* flew-wrap me na dal nrreshtin tjeter jo krejt ngjit  */
+
+}
+
+.container div:nth-child(1){
+    order: 2;
+    /* height: 300px; */
+}
+.container div:nth-child(2){
+    order: 3;
+    align-self: flex-end;
+    /* height: 100px; */
+}
+.container div:nth-child(3){
+    order: 0;
+    /* height: 250px; */
+    /* flex-grow: 3; */
+}
+.container div:nth-child(4){
+    order: 1;
+    /* height: 55px; */
+}
+
+.container2{
+    display: flex;
+    background-color: blanchedalmond;
+    flex-direction: column;
+}
+
+.container2 div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 35px;
+    width: 100px;
+    height: 100px;
+
+}
