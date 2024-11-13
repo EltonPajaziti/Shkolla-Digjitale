@@ -21,5 +21,7 @@ showSlides(1);
 function plusSlides(n){
     slideIndex+=n;
     showSlides(slideIndex);
-    
+
 }
+//Me na u ndrru foto ne slider ne menyre automatike 
+setInterval(plusSlides, 3000,1);
