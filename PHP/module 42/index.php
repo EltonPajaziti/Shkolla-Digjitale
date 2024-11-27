@@ -101,5 +101,14 @@ for($i=0;$i<$length;$i++){
 $numrat=[1,5,10,4];
 echo array_sum($numrat);// e llogarit shumen e  anetareve te vargut 
 
+$numbers=[1,2,3,4,5,6,7];
 
+$gjatsia=count($numbers);
+$shuma=0;
+for($i=0;$i<$gjatsia;$i++){
+    $shuma+=$numbers[$i];
+
+}
+echo "<br>";
+echo "Mesatarja". " ".$shuma/$gjatsia;
 ?>
